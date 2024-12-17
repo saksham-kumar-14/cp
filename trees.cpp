@@ -1,23 +1,12 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-
-class ListNode{
-	int val;
-	Node* next;
-	
-	public:
-	ListNode(int v, Node* n){
-		val = v;
-		next = n;
-	}
-};
-
 // binary tree
 class TreeNode{
+	public:
 	int val;
-	Node* left;
-	Node* right;
+	TreeNode* left;
+	TreeNode* right;
 	
 	public:
 	TreeNode(int v){
